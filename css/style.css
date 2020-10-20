@@ -228,7 +228,7 @@ header{
   .pricing{
     align-items: flex-start;
   }
-  .gallery{
+  #gallery .gallery{
     display: none;
   }
 @media screen and (prefers-reduced-motion: reduce){
