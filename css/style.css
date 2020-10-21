@@ -243,7 +243,9 @@ header{
   #logo{
       animation: none; /* Removes scroll animation */
   }
-
+  body{
+    background: green;
+}
 }
 
 /*Your code here again.*/ 
