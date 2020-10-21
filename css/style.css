@@ -233,6 +233,7 @@ header{
   .pricing{
     align-items: flex-start;
     flex-wrap: wrap;
+    flex-direction: row;
   }
   #gallery .gallery{
     display: none;
