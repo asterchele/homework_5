@@ -86,9 +86,10 @@ footer{
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -99,7 +100,6 @@ footer{
   /*Your code here.*/
   /*Take a look at flex-basis*/
   flex-basis: 400px;
-  
 }
 
 .card > header{
@@ -186,13 +186,16 @@ header{
 }
 
 @media screen and (min-width: 850px){
-
+  .pricing{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   /* Cards! */
   .card {
     /*Your  code here again.*/
     display: flex;
     flex-basis: 225px;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .card_big{
@@ -229,6 +232,7 @@ header{
   }
   .pricing{
     align-items: flex-start;
+    flex-wrap: wrap;
   }
   #gallery .gallery{
     display: none;
