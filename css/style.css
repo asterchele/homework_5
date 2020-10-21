@@ -238,7 +238,8 @@ header{
   #gallery, .gallery{
     display: none;
   }
-@media (prefers-reduced-motion:reduce){
+}
+@media screen and (prefers-reduced-motion:reduce){
   #logo{
       animation: none; /* Removes scroll animation */
   }
